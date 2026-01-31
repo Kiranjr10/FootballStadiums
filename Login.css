@@ -1,0 +1,83 @@
+/* Login Page Styles - Basic NEB Level */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #0b0e14;
+    /* Match main hub theme */
+    color: white;
+}
+
+.container {
+    width: 350px;
+    background: #161b22;
+    /* Match main hub theme */
+    padding: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: 1px solid #30363d;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #ffcc00;
+    /* Gold header */
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #8b949e;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    background: #0d1117;
+    color: white;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #ffcc00;
+    /* Gold button */
+    border: none;
+    color: #000;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #e6b800;
+}
+
+.back-link {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    color: #ffcc00;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}

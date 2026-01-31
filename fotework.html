@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="footework.css">
+    <title>Footework</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="header-container">
+                <div id="logo">
+                    <a href="fotework.html">
+                        <img src="Other Img/Footelogo.jpeg" alt="Logo" width="60" height="60">
+                    </a>
+                    <div class="search-box">
+                        <input type="text" id="clubSearch" placeholder="Search clubs..." onkeyup="filterClubs()">
+                    </div>
+                </div>
+                <div class="site-title">
+                    <h1>Footework<sub>Np</sub></h1>
+                    <p class="cursive-subtitle">Nepal's Ultimate Football Destination ⚽</p>
+                </div>
+                <div class="nav-wrapper">
+                    <ul class="nav-links">
+                        <li><a href="fotework.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="Login.html"><button class="login-btn">Login</button></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Main middle page Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2 class="hero-slogan">From the Himalayas to the World: Your Ultimate Pitch.</h2>
+                <p>Your ultimate gateway to Nepal's football world.</p>
+                <br>
+                <a href="#nepal-clubs"><button class="hero-btn">Explore Clubs</button></a>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section id="news" class="section-container">
+            <h2 class="section-heading">📰 Latest Football News</h2>
+            <div class="news-flex">
+                <div class="news-card">
+                    <h3>Nepal to Play Friendly</h3>
+                    <p>The Nepal National Team is set to play a friendly match at Dasarath Stadium next month.</p>
+                </div>
+                <div class="news-card">
+                    <h3>Manang vs Three Star</h3>
+                    <p>The classic rivalry continues this weekend in the A-Division League.</p>
+                </div>
+                <div class="news-card">
+                    <h3>UCL Results</h3>
+                    <p>Real Madrid and Man City secure their spots in the next round of Champions League.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Match Schedule Section -->
+        <section id="schedule" class="section-container">
+            <h2 class="section-heading">📅 Match Schedule</h2>
+            <table class="schedule-table">
+                <tr>
+                    <th>Date</th>
+                    <th>Match</th>
+                    <th>Time (NST)</th>
+                </tr>
+                <tr>
+                    <td>Feb 5</td>
+                    <td>Manang vs Machhindra</td>
+                    <td>2:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Feb 6</td>
+                    <td>Liverpool vs Chelsea</td>
+                    <td>1:45 AM</td>
+                </tr>
+                <tr>
+                    <td>Feb 7</td>
+                    <td>PSG vs Bayern</td>
+                    <td>1:45 AM</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Nepal Clubs Section -->
+        <section id="nepal-clubs" class="section-container">
+            <h2 class="section-heading">🇳🇵 Nepal Football</h2>
+            <div class="club-grid">
+                <div class="club-card">
+                    <h2>Dasarath Stadium</h2>
+                    <p>Location: Tripureswor, Kathmandu</p>
+                    <img src="Stadiums/Dasarath.jpeg" alt="Dasarath Stadium" class="stadium-img">
+                    <p>The historic home of Nepali football, hosting major international matches and league finals.</p>
+                </div>
+                <div class="club-card">
+                    <h2>Manang Marshyangdi</h2>
+                    <p>8-Time Champions</p>
+                    <img src="Other Img/ManangMarshyangdiClub.png" alt="Manang Marshyangdi" class="stadium-img">
+                    <p>The most successful club in Nepal with a record nationwide following and rich trophy history.</p>
+                </div>
+                <div class="club-card">
+                    <h2>Three Star Club</h2>
+                    <p>Based in Lalitpur</p>
+                    <img src="Other Img/Three_Star_Club.png" alt="Three Star Club" class="stadium-img">
+                    <p>A powerhouse of Lalitpur known for their technical play style and passionate "Stars" fan base.
+                    </p>
+                </div>
+                <div class="club-card">
+                    <h2>Machhindra FC</h2>
+                    <p>Recent Giants</p>
+                    <img src="Other Img/Machhindra_F.C..png" alt="Machhindra FC" class="stadium-img">
+                    <p>The modern giants of Nepali football, having won consecutive league titles with top national
+                        stars.</p>
+                </div>
+                <div class="club-card">
+                    <h2>Tribhuvan Army</h2>
+                    <p>Departmental Powerhouse</p>
+                    <p>The departmental giants known for their discipline, fitness, and consistent performances in the
+                        top tier.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- International Clubs Section -->
+        <section id="clubs" class="section-container">
+            <h2 class="section-heading">🌍 International Clubs</h2>
+            <div class="club-grid">
+                <!-- FC Barcelona -->
+                <div class="club-card">
+                    <h2>FC Barcelona</h2>
+                    <p>League: LaLiga</p>
+                    <img src="Stadiums/campnou.jpeg" alt="Camp Nou" class="stadium-img">
+                    <p>A legendary Spanish club known for "Tiki-Taka" and the iconic Spotify Camp Nou stadium.</p>
+                </div>
+                <div class="club-card">
+                    <h2>Real Madrid</h2>
+                    <p>League: LaLiga</p>
+                    <img src="Stadiums/Bernabeau.jpg" alt="Bernabeu" class="stadium-img">
+                    <p>The kings of Europe with a record 14 UCL titles, playing at the stunning Santiago Bernabéu.</p>
+                </div>
+                <div class="club-card">
+                    <h2>PSG</h2>
+                    <p>League: Ligue 1</p>
+                    <img src="Stadiums/pricedepark.jpg" alt="Parc des Princes" class="stadium-img">
+                    <p>France's most successful club, boasting a star-studded lineup in the heart of Paris.</p>
+                </div>
+                <div class="club-card">
+                    <h2>Liverpool</h2>
+                    <p>League: Premier League</p>
+                    <img src="Stadiums/Anfield.jpeg" alt="Anfield" class="stadium-img">
+                    <p>A club with historic European pedigree and the passionate "You'll Never Walk Alone" spirit.</p>
+                </div>
+                <div class="club-card">
+                    <h2>Man United</h2>
+                    <p>League: Premier League</p>
+                    <img src="Stadiums/oldtrafford.jpg" alt="Old Trafford" class="stadium-img">
+                    <p>One of the world's most supported teams, playing at the famous "Theatre of Dreams".</p>
+                </div>
+                <div class="club-card">
+                    <h2>Man City</h2>
+                    <p>League: Premier League</p>
+                    <img src="Stadiums/etihad.jpeg" alt="Etihad" class="stadium-img">
+                    <p>The dominant force in modern English football, known for tactical brilliance at the Etihad.</p>
+                </div>
+                <div class="club-card">
+                    <h2>Chelsea</h2>
+                    <p>League: Premier League</p>
+                    <img src="Stadiums/stan.jpeg" alt="Stamford Bridge" class="stadium-img">
+                    <p>A London powerhouse with multiple European titles, based at the historic Stamford Bridge.</p>
+                </div>
+                <div class="club-card">
+                    <h2>Bayern Munich</h2>
+                    <p>League: Bundesliga</p>
+                    <img src="Stadiums/bayen12.jpg" alt="Allianz Arena" class="stadium-img">
+                    <p>The undisputed giants of German football, famous for dominance and the Allianz Arena.</p>
+                </div>
+                <div class="club-card">
+                    <h2>Borussia Dortmund</h2>
+                    <p>League: Bundesliga</p>
+                    <img src="Stadiums/idnukpark.jpg" alt="Signal Iduna Park" class="stadium-img">
+                    <p>Known for their incredible "Yellow Wall" fan base at the iconic Signal Iduna Park.</p>
+                </div>
+                <div class="club-card">
+                    <h2>AC Milan</h2>
+                    <p>League: Serie A</p>
+                    <img src="Stadiums/sansiro.jpeg" alt="San Siro" class="stadium-img">
+                    <p>One of Italy's most decorated clubs with a glorious European history at the San Siro.</p>
+                </div>
+                <div class="club-card">
+                    <h2>Inter Milan</h2>
+                    <p>League: Serie A</p>
+                    <img src="Stadiums/sansirointer.jpeg" alt="San Siro" class="stadium-img">
+                    <p>The fierce rivals of AC Milan, sharing the San Siro and known for strong tradition.</p>
+                </div>
+                <div class="club-card">
+                    <h2>Juventus</h2>
+                    <p>League: Serie A</p>
+                    <img src="Stadiums/juve.jpeg" alt="Juve Stadium" class="stadium-img">
+                    <p>Italy's "Old Lady", a club with a record domestic dominance based in Turin.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Football Authorities Section -->
+        <section id="authorities" class="section-container">
+            <h2 class="section-heading">🌐 Football Authorities</h2>
+
+            <!-- FIFA - Primary Authority -->
+            <div class="fifa-main">
+                <div class="authority-card large-card">
+                    <img src="Other Img/fifa_logo.png" alt="FIFA Logo" class="authority-logo-large">
+                    <div class="authority-info">
+                        <h3>FIFA (Federation Internationale de Football Association)</h3>
+                        <p>The highest governing body of football globally, responsible for the World Cup and the growth
+                            of the beautiful game across 211 member associations.</p>
+                        <a href="https://www.fifa.com" target="_blank" class="official-link-btn">Visit FIFA Official</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UEFA & SAFF - Secondary Authorities -->
+            <div class="sub-authorities">
+                <div class="authority-card small-card">
+                    <img src="Other Img/ucl_logo.png" alt="UEFA Logo" class="authority-logo-small">
+                    <h3>UEFA</h3>
+                    <p>Governing body for football in Europe and organizer of the Champions League.</p>
+                    <a href="https://www.uefa.com" target="_blank" class="official-link-btn">Visit UEFA</a>
+                </div>
+                <div class="authority-card small-card">
+                    <img src="Other Img/saff_logo.png" alt="SAFF Logo" class="authority-logo-small">
+                    <h3>SAFF</h3>
+                    <p>South Asian Football Federation, promoting the game in our regional neighborhood.</p>
+                    <a href="https://www.saffederation.org" target="_blank" class="official-link-btn">Visit SAFF</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fan Comments Section -->
+        <section id="comments" class="section-container">
+            <h2 class="section-heading">💬 Fan Comments</h2>
+            <div id="comment-list">
+                <div class="comment-item">
+                    <strong>Kiran:</strong> "Great to see Nepal clubs added here!"
+                </div>
+                <div class="comment-item">
+                    <strong>Saksham:</strong> "Manang will win the league this year!"
+                </div>
+            </div>
+            <div class="comment-form">
+                <h3>Leave a Comment</h3>
+                <form action="footework.php" method="POST" onsubmit="return validateComment()">
+                    <input type="text" id="userName" name="name" placeholder="Your Name" required><br>
+                    <input type="text" id="userMessage" name="message" placeholder="Your Comment" required
+                        style="width: 100%; height: 80px;"><br>
+                    <button type="submit">Post Comment</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="rowp">
+            <ol type="circle">
+                <li> <a href="contact.html">Contact</a></li>
+                <li> <a href="about.html">About</a></li>
+                <br>
+                <a href="http://linkedin.com" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i> <span>Linkedin</span>
+                </a>
+                <li> <a href="http://instagram.com" target="_blank">
+                        <i class="fa-brands fa-instagram"></i> <span>Instagram</span></a></li>
+                <li> <a href="http://twitter.com" target="_blank">
+                        <i class="fa-brands fa-twitter"></i><span>✖</span></a></li>
+                <li> <a href="http://facebook.com" target="_blank">
+                        <i class="fa-brands fa-facebook"></i><span>Facebook</span></a></li>
+                <li> <a href="contact.html">Contact</a></li>
+                <li> <a href="about.html">About</a></li>
+            </ol>
+        </div>
+        <div class="columnp">
+            <h3>Shankhamul, Kathmandu</h3>
+            <p>&copy; 2025 Website All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="footework.js"></script>
+</body>
+
+</html>

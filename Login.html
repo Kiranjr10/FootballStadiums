@@ -1,93 +1,29 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login/Signup Form</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background: #121212;
-            color: white;
-        }
-        .container {
-            width: 300px;
-            background: #1e1e1e;
-            padding: 20px;
-            box-shadow: 0px 0px 10px rgba(255,255,255,0.1);
-            border-radius: 5px;
-        }
-        .container h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .input-group {
-            margin-bottom: 15px;
-        }
-        .input-group label {
-            display: block;
-            margin-bottom: 5px;
-        }
-        .input-group input {
-            width: 100%;
-            padding: 8px;
-            border: 1px solid #444;
-            border-radius: 4px;
-            background: #333;
-            color: white;
-        }
-        .btn {
-            width: 100%;
-            padding: 10px;
-            background: #28a745;
-            border: none;
-            color: white;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        .btn:hover {
-            background: #218838;
-        }
-        .toggle-link {
-            text-align: center;
-            display: block;
-            margin-top: 10px;
-            color: #007bff;
-            cursor: pointer;
-        }
-        .toggle-link:hover {
-            text-decoration: underline;
-        }
-    </style>
-    <script>
-        function toggleForm() {
-            window.location.href = 'signup.html';
-        }
-    </script>
+    <title>Login - Footework</title>
+    <link rel="stylesheet" href="Login.css">
 </head>
+
 <body>
-    <div class="container" id="form-container">
-        <h2 id="form-title">Login</h2>
-        <form>
+    <div class="container">
+        <h2>Login to Footework</h2>
+        <form action="fotework.html">
             <div class="input-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" required>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
             </div>
             <div class="input-group">
                 <label for="password">Password</label>
-                <input type="password" id="password" required>
+                <input type="password" id="password" placeholder="Enter password" required>
             </div>
-            <button type="submit" class="btn">Submit</button>
+            <button type="submit" class="btn">Login Now</button>
         </form>
-        <span class="toggle-link" onclick="toggleForm()">Don't have an account? Sign Up</span>
+        <a href="fotework.html" class="back-link">← Back to Hub</a>
     </div>
 </body>
+
 </html>
