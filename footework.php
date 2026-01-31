@@ -10,10 +10,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "<p><strong>Name:</strong> " . $username . "</p>";
     echo "<p><strong>Your Comment:</strong> " . $usercomment . "</p>";
     
-    echo "<br><a href='fotework.html'>Return to Home</a>";
+    echo "<br><a href='index.html'>Return to Home</a>";
     
 } else {
     echo "<h1>No data submitted.</h1>";
-    echo "<a href='fotework.html'>Go back to Home</a>";
+    echo "<a href='index.html'>Go back to Home</a>";
 }
 ?>

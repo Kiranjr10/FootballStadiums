@@ -16,7 +16,7 @@ Welcome to **Footework**, a premium web platform dedicated to football enthusias
 - **Real-Time Club Search**: A functional search bar at the top-left to filter clubs instantly.
 - **Sticky Navigation**: The navbar stays at the top as you scroll for easy access.
 - **Multiple Pages**:
-  - `fotework.html` (Home)
+  - `index.html` (Home)
   - `about.html` (About the Hub)
   - `contact.html` (Contact Us)
   - `Login.html` (Member Portal)
@@ -51,16 +51,13 @@ git push -u origin main
 
 #### 3. Access Your Site
 Once deployed, your site will be available at:
-`https://YOUR_USERNAME.github.io/FootballStadiums/fotework.html`
-
-> [!IMPORTANT]
-> Because the main file is named `fotework.html` (and not `index.html`), you must include `/fotework.html` at the end of your URL to see the homepage.
+`https://YOUR_USERNAME.github.io/FootballStadiums/`
 
 ---
 
 ### 🧑‍🎓 Education Standards (NEB Grade 12)
 This project is built using:
-- **HTML5**: Semantic structure (`fotework.html`).
+- **HTML5**: Semantic structure (`index.html`).
 - **Vanilla CSS3**: Custom branding (`footework.css`).
 - **JavaScript**: Real-time filtering (`footework.js`).
 - **PHP**: Basic form handling (`footework.php`).
